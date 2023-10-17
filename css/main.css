@@ -1,0 +1,270 @@
+*{
+    box-sizing: border-box;
+}
+
+root {
+    display: block;
+}
+
+
+img {
+    max-width: 100%;
+    border: 0;
+}
+
+a {
+    border: 0;
+    text-decoration: underline;
+    transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    cursor: pointer;
+}
+
+body {
+    margin: 0;
+    color: #666161;
+    font-size: 12px;
+    background-color: #fff;
+    font-weight: 400;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+
+}
+
+a:not([href]) {
+    border: 0;
+    transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    cursor: pointer;
+    text-decoration: underline;
+}
+a:hover, a:not([href]):hover  {
+    text-decoration: none;
+    color: #00B6AB;
+}
+
+button {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.content {
+    padding: 25px 24px;
+}
+.banner img{
+    width: 100%;
+    height: auto;
+}
+.CSS_3rdpartyproducttext_adv {
+    text-align: center;
+}
+
+.terms-text {
+    padding: 12px 16px 0;
+    margin: 0;
+}
+
+.terms-text p{
+    margin-bottom: 18px;
+    margin-top: 0;
+    font-size: 12px;
+    font-weight: 400;
+}
+.terms-text p:last-child{
+    margin-bottom: 0;
+}
+
+.CSSadviceofchargebox_default .button-wrapper input {
+    font-size: 1.2em;
+    line-height:30px;
+    height:30px;
+    text-decoration: none;
+    position: relative;
+    padding: 0 20px;
+    margin:0;
+    display: block;
+    color: #fff;
+    text-align: center;
+    background: #cc0000;
+    border: 1px solid #cc0000;
+    width: 100%;
+}
+.button-wrapper::after {
+    content: ' ';
+    background-image: url("../img/button_arrow.svg");
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 34px;
+    height: 23px;
+    position: absolute;
+    right: 39px;
+    top: 29px;
+}
+
+.text-link{
+    color: #00B6AB;
+    text-decoration: underline;
+    transition: all 0.4s ease-in;
+    -moz-transition: all 0.4s ease-in;
+    -webkit-transition: all 0.4s ease-in;
+}
+.text-link:hover, .text-link:active, .text-link:focus, .text-link:focus-within{
+    color: #00B6AB;
+    text-decoration: none;
+}
+.adviceofchargebox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 14px 30px;
+    font-weight: 400;
+    line-height: 13px;
+    font-size: 11px;
+}
+.adviceofchargebox .left {
+    width: 65%;
+}
+.adviceofchargebox .right{
+    font-weight: 500;
+    width: 35%;
+    text-align: left;
+}
+
+.button-wrapper {
+    position: relative;
+}
+
+.button-wrapper .join-button {
+    background-color: #00B6AB;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    text-transform: capitalize;
+    line-height: 80px;
+    height: 82px !important;
+    border: 1px solid #00B6AB;
+    width: 100%;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.btn-backwards {
+    background-color: transparent;
+    border: 1px solid transparent;
+    color: #666161;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    text-decoration: underline;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 36px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.btn-backwards:active {
+    text-decoration: none;
+    color: #00B6AB;
+}
+.btn-backwards:focus {
+    text-decoration: none;
+    color: #00B6AB;
+}
+
+.CSSlegalbox_default {
+    padding: 10px 5px 0;
+}
+.CSSlegalbox_default a {
+    color: #00B6AB;
+}
+
+input[type=checkbox] {
+    width: 14px;
+    height: 14px;
+    margin: 0 4px;
+}
+
+.checkbox-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 10px;
+    padding: 10px 6px 6px;
+}
+
+footer {
+    margin: 0;
+    padding: 35px 12px 0;
+}
+.footer-menu-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-menu a {
+    font-size: 12px;
+    display: block;
+    padding-left: 13px;
+    padding-right: 13px;
+    line-height: 40px;
+    position: relative;
+    text-decoration: underline;
+    color: #00B6AB;
+    transition: all 0.4s ease-in;
+    -moz-transition: all 0.4s ease-in;
+    -webkit-transition: all 0.4s ease-in;
+}
+.footer-menu a + a:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 11px;
+    width: 1px;
+    height: 22px;
+    background-color: #666161;
+}
+
+.footer-menu {
+    font-size: 11px;
+    margin: 0;
+    padding: 0 24px;
+    position: relative;
+}
+
+.footer-menu a:active, .footer-menu a:focus, .footer-menu a:focus-visible {
+    color: #00B6AB;
+    text-decoration: none;
+}
+
+.footer-menu-row:first-child {
+    margin-bottom: 5px;
+}
+
+.footer-menu a:hover, .footer-menu a:focus, .footer-menu a:active{
+    text-decoration: none;
+}
+
+.copyright {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+    color: #666161;
+    font-weight: 400;
+    font-size: 11px;
+    padding-bottom: 3px;
+    margin-top: 25px;
+}
+

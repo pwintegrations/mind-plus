@@ -1,0 +1,133 @@
+<!doctype html>
+<html class="no-js" lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mind+</title>
+    <meta name="description" content="Mind Plus">
+    <meta name="keywords" content="store, mental games, download">
+    <meta name="author" content="Mind+">
+    <meta name="copyright" content="Mind+">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0">
+
+    <meta property="og:site_name" content="Mind+"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="http://mindplus.store"/>
+    <meta property="og:title" content="Mind+ Store"/>
+    <meta property="og:description" content="Spielen für Gehirnentwicklung"/>
+    <meta property="og:image" content="http://mindplus.store/build/images/carriers/DreiAT/logo_drei.7d312a35.svg"/>
+    <meta name="theme-color" content="#ffffff"/>
+    <meta name="msapplication-navbutton-color" content="#00B6AB"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+    <link rel="apple-touch-icon" href="favicon.ico">
+    <link rel="icon" type="image/png" href="favicon32.png"
+          sizes="32x32">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+    <meta name="HandheldFriendly" content="true"/>
+    <link rel="stylesheet" type="text/css" href="css/main.css" media="screen,print">
+
+    <meta name="theme-color" content="#ffffff">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=2">
+
+    %headerBlock%
+</head>
+<body>
+    <main class="page-container">
+        <div class="banner">
+<!--            <img src="%campaignImageBannerUrl%" alt="Game Banner"/>-->
+            <img src="img/mind-banner.png" alt="Game Banner"/>
+        </div>
+        <div class="content">
+            <div class="adviceofchargebox">
+                    <div class="left">Anbieter:</div><div class="right">Playwing Ltd.</div>
+                    <div class="left"> Produkt:</div><div class="right">MIND+</div>
+                    <div class="left">Preis inkl. Steuer:</div><div class="right">EUR 3.90</div>
+                    <div class="left">Abointervall:</div><div class="right">Pro Woche</div>
+            </div>
+            <div class="button-wrapper">
+<!--                %subscribeForm:name=Weiter:class=join-button%-->
+                <button type="submit" class="join-button">Weiter</button>
+                <a class="btn-backwards" href="https://www.google.com/">
+                    Abbrechen
+                </a>
+            </div>
+            <div class="checkbox-box">
+                    <input type="checkbox" id="terms-validate" name="terms-validate" required />
+                    <label for="terms-validate">Mit Klick auf „Weiter“ stimme ich ausdrücklich der sofortigen Leistungserbringung und dem Verlust des <a href="/info/terms#tnc_anchor_modifications" class="text-link" target="_blank">Rücktrittsrechts</a> zu.</label>
+            </div>
+            <div class="terms-text">
+                <p> Sie können Ihr Abonnement jederzeit im Bereich <a href="/account" target="_blank" class="text-link">Mein Konto</a> oder über diesen Link <a href="https://mobileinfo.biz/" target="_blank" class="text-link">https://mobileinfo.biz/</a> kündigen.</p>
+                <p>Die Kosten werden Ihrer Telefonrechnung hinzugefügt. Indem Sie sich jetzt anmelden, akzeptieren Sie unsere Allgemeinen Geschäftsbedingungen.</p>
+                <p>Die Gebühren werden Ihrer Telefonrechnung hinzugefügt.</p>
+                <p>Alle Anzeigen und In-App-Käufe wurden entfernt. Sie können alle Ihre Edelsteine behalten, auch wenn Sie Ihr Abonnement kündigen.</p>
+           </div>
+    </div>
+        <footer>
+            <div class="footer-menu">
+                <div class="footer-menu-row">
+                    <a href="/info/terms" class="footer-link">AGB</a>
+                    <a href="/info/imprint" class="footer-link">Impressum</a>
+                    <a href="/info/privacy" class="footer-link">Datenschutz</a>
+                </div>
+                <div class="footer-menu-row">
+                    <a href="/info/contact" class="footer-link">Kontakt</a>
+                    <a href="/info/terms#tnc_anchor_modifications" class="footer-link">Nutzungsbedingungen </a>
+                    <a href="/account" class="footer-link" target="_blank">Kündigung</a>
+                </div>
+            </div>
+            <div class="copyright">©2023 Alle Rechte vorbehalten</div>
+        </footer>
+</main>
+    %footerBlock%
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            const joinBtn = $(".join-button");
+
+            joinBtn.click(function (e) {
+                if (!$("#terms-validate").is(':checked')) {
+                    joinBtn.addClass('disabled');
+                    joinBtn.attr("disabled", true);
+                    e.preventDefault();
+                    // $.fancybox.open({
+                    //     src: 'Bestätigen Sie, dass Sie allen Bedingungen zustimmen.',
+                    //     type: 'html',
+                    //     smallBtn: false,
+                    //     toolbar: false,
+                    //     animationDuration: 200,
+                    //     buttons: [],
+                    //     slideClass: 'fancybox_box',
+                    // });
+                    return false;
+                }
+                else{
+                    joinBtn.removeClass('disabled');
+                    joinBtn.attr("disabled", false);
+
+                }
+            });
+
+
+            $("#terms-validate").change(function () {
+                joinBtn.toggleClass("disabled", !this.checked);
+
+                if (this.checked) {
+                    joinBtn.removeClass('disabled');
+                    joinBtn.attr("disabled", false);
+                } else
+                {
+                    joinBtn.addClass('disabled');
+                    joinBtn.attr("disabled", true)
+                }
+            });
+        });
+    </script>
+</body>
+</html>
