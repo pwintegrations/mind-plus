@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Futura Lt BT';
+    font-family: 'Futura Lt BT', 'Jost', sans-serif;
     src: url('/fonts/FuturaBT-Light.eot');
     src: url('/fonts/FuturaBT-Light.eot?#iefix') format('embedded-opentype'),
     url('/fonts/FuturaBT-Light.woff2') format('woff2'),
@@ -62,7 +62,7 @@ body {
     color: #212529;
     padding: 0;
     background: linear-gradient(97.09deg,#132028 3.83%,#395765 98.1%);
-    font-family: 'Futura Lt BT';
+    font-family: 'Futura Lt BT', 'Jost', sans-serif;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
 }
@@ -259,7 +259,7 @@ button {
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 4px;
-    font-family: 'Futura Lt BT';
+    font-family: 'Futura Lt BT', 'Jost', sans-serif;
     font-weight: 600;
 }
 .form-block input{
@@ -268,7 +268,7 @@ button {
     border: 3px solid #f8f9fa;
     border-radius: 6px;
     color: #15232b;
-    font-family: 'Futura Lt BT';
+    font-family: 'Futura Lt BT', 'Jost', sans-serif;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -287,7 +287,7 @@ button {
     border: 3px solid #f8f9fa;
     border-radius: 6px;
     color: #15232b;
-    font-family: 'Futura Lt BT';
+    font-family: 'Futura Lt BT', 'Jost', sans-serif;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -336,7 +336,7 @@ button {
 
 }
 .attach-file-wrapper label{
-    font-family: 'Futura Lt BT';
+    font-family: 'Futura Lt BT', 'Jost', sans-serif;
     font-weight: 600;
     font-size: 16px;
     margin-bottom: 4px;
@@ -402,7 +402,7 @@ button {
     justify-content: center;
 }
 .user-label{
-    font-family: 'Futura Lt BT';
+    font-family: 'Futura Lt BT', 'Jost', sans-serif;
     font-weight: 600;
     font-size: 16px;
     margin-bottom: 4px;
@@ -456,7 +456,7 @@ input[type=checkbox] {
 }
 .block-link{
     color: #15232b;
-    font-family: 'Futura Lt BT';
+    font-family: 'Futura Lt BT', 'Jost', sans-serif;
     font-weight: 700;
     border-radius: 16px;
     -webkit-border-radius: 16px;
